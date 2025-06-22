@@ -1,0 +1,60 @@
+.\CarlaUE4.exe  -carla-rpc-port=2000 -quality-level=Low
+.\CarlaUE4.exe -ResX=300 -ResY=300 -quality-level=Low  -carla-rpc-port=2000
+.\CarlaUE4.exe -ResX=600 -ResY=600 -quality-level=Low  -carla-rpc-port=2000
+
+Run Carla:
+    
+    Windows:
+    .\CarlaUE4.exe -ResX=300 -ResY=300 -quality-level=Low  -carla-rpc-port=2000
+    .\CarlaUE4.exe -ResX=600 -ResY=600 -quality-level=Epic  -carla-rpc-port=2000
+
+    Linux:
+    /opt/carla-simulator/CarlaUE4.sh -ResX=300 -ResY=300 -quality-level=Low  -carla-rpc-port=2000 &
+    nohup /opt/carla-simulator/CarlaUE4.sh -ResX=300 -ResY=300 -quality-level=Low  -carla-rpc-port=2000 &
+    nohup ~/carla_install/CarlaUE4.sh -RenderOffScreen -quality-level=Low  -carla-rpc-port=2000 &
+
+Main Program command template:
+
+python -u run_mappo_carla.py --env_name "CARLA" --scenario_name crossing --algorithm_name "wmappo" --experiment_name "CAV_train" --seed 312 --episode_length 266 --episodes 5 --brief_state -c 5 --ppo_epoch 10 --use_ReLU --gain 0.01 --lr 7e-4 --critic_lr 7e-4 --wqw 0.4 --weight_schedule exp --robust_reg 0.2 --eps 4. --cbf_robustness 4.0 --spec_view birdeye --no_render
+
+
+Explanation:
+
+python -u run_mappo_carla.py 
+    --env_name "CARLA" 
+
+    --algorithm_name "wmappo" # algorithm used, other candidate: mappo
+    --experiment_name "CAV_train" 
+    --seed 312 
+    --brief_state 
+    --ppo_epoch 10 
+    --use_ReLU 
+    --gain 0.01 
+    --lr 7e-4 # policy learning rate
+    --critic_lr 7e-4 # critic learning rate (value network and worst-q value network)
+    --wqw 0.4 # worst-Q weight in policy training objective
+    --weight_schedule exp # strategy of updating worst-q weight during training
+    --robust_reg 0.2 # regularization coefficient 
+    --eps 4. # epsilon defined in robust MARL
+    --cbf_robustness 4.0 # robustness coefficient considered in robust CBF
+    --spec_view birdeye # view of specular camera when simulating
+    --scenario_name crossing 
+    -c 5 # number of vehicles in total, should be defined in config already.
+    --episode_length 266 # number of timesteps in each episode. (first 66 steps are forced acceleration)
+    --episodes 120 # number of episodes during training
+    --no_render # whether rendering graphics of simulator when simulating.
+
+
+
+## Commands to run scenario runner
+
+    1.      .\CarlaUE4.exe -ResX=300 -ResY=300 -quality-level=Low  -carla-rpc-port=2000
+    2.      python scenario_runner.py --scenario FollowLeadingVehicle_1 --reloadWorld
+    3.      python acc_with_cbf_mpc.py
+
+
+# define a new scenario class
+# udpate the corresponding .xml file
+    - FollowLeadingVehicle.xml
+    - create a new <scenario></scenario> section
+

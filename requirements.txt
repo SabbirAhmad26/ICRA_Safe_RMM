@@ -1,0 +1,8 @@
+setproctitle
+tensorboardX
+matplotlib
+absl-py
+gymnasium
+cvxopt
+casadi
+scipy

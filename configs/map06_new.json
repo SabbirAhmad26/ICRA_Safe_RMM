@@ -1,0 +1,714 @@
+{
+	"Highway-baseline-1": {
+		"CAV_Base_loc":[
+			[85.0, 149.9, 0.1],
+			[85.0, 146.6, 0.1], 
+			[70.0, 143.3, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[75.0, 0, 0],
+			[75.0, 0, 0],
+			[60.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[105, 143.3, 0.1],
+			[105, 149.9, 0.1],
+			[105, 146.6, 0.1] 
+		],
+		"UCV_Rand_loc":[
+			[4.0, 0, 0],
+			[4.0, 0, 0],
+			[4.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[6.0, 0, 0],
+			[6.0, 0, 0],
+			[6.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"ucv_target_velocity": 11.0,
+		"allow_switch": false
+	},
+	"Highway-baseline-2": {
+		"CAV_Base_loc":[
+			[70.0, 143.3, 0.1], 
+			[80, 139.8, 0.1],
+			[70.0, 136.8, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20.0, 0, 0],
+			[20.0, 0, 0],
+			[20.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[105, 136.8, 0.1],
+			[105, 139.8, 0.1],
+			[105, 143.3, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[4.0, 0, 0],
+			[4.0, 0, 0],
+			[4.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[6.0, 0, 0],
+			[6.0, 0, 0],
+			[6.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"ucv_target_velocity": 11.0,
+		"allow_switch": false
+	},
+	"Highway-baseline-3": {
+		"CAV_Base_loc":[
+			[85.0, 146.6, 0.1], 
+			[70.0, 143.3, 0.1], 
+			[80, 139.8, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20.0, 0, 0],
+			[20.0, 0, 0],
+			[20.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[105, 146.6, 0.1], 
+			[105, 139.8, 0.1], 
+			[109, 143.3, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[4.0, 0, 0],
+			[4.0, 0, 0],
+			[4.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[6.0, 0, 0],
+			[6.0, 0, 0],
+			[6.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"ucv_target_velocity": 11.0,
+		"allow_switch": false
+	},
+	"Highway-baseline-4": {
+		"CAV_Base_loc":[
+			[85.0, 149.9, 0.1],
+			[85.0, 146.6, 0.1], 
+			[70.0, 143.3, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[105, 143.3, 0.1],
+			[105, 149.9, 0.1],
+			[105, 146.6, 0.1] 
+		],
+		"UCV_Rand_loc":[
+			[4.0, 0, 0],
+			[4.0, 0, 0],
+			[4.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[6.0, 0, 0],
+			[6.0, 0, 0],
+			[6.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"ucv_target_velocity": 7,
+		"allow_switch": false
+	},
+	"Highway": {
+		"CAV_Base_loc":[
+			[85.0, 146.6, 0.1], 
+			[70.0, 143.3, 0.1], 
+			[80, 139.8, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20.0, 0, 0],
+			[20.0, 0, 0],
+			[20.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[105, 146.6, 0.1], 
+			[105, 139.8, 0.1], 
+			[109, 143.3, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[4.0, 0, 0],
+			[4.0, 0, 0],
+			[4.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[6.0, 0, 0],
+			[6.0, 0, 0],
+			[6.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"allow_switch": false
+	},
+	"Highway-0903": {
+		"CAV_Base_loc":[
+			[65, 149.9, 0.1],
+			[65, 146.6, 0.1], 
+			[65, 143.3, 0.1], 
+			[65, 139.9, 0.1],
+			[65, 136.4, 0.1] 
+		],
+		"CAV_Rand_loc":[
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[93.0, 149.9, 0.1], 
+			[93.0, 146.6, 0.1], 
+			[93.0, 143.3, 0.1], 
+			[93.0, 139.9, 0.1], 
+			[93.0, 136.4, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[14.0, 0, 0],
+			[14.0, 0, 0],
+			[14.0, 0, 0],
+			[14.0, 0, 0],
+			[14.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[6.0, 0, 0],
+			[6.0, 0, 0],
+			[6.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"ucv_target_velocity": 11.0,
+		"allow_switch": false
+	},
+	"Highway-0903-Test": {
+		"CAV_Base_loc":[
+			[65, 149.9, 0.1],
+			[65, 146.6, 0.1], 
+			[65, 143.3, 0.1], 
+			[65, 139.9, 0.1],
+			[65, 136.4, 0.1] 
+		],
+		"CAV_Rand_loc":[
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[93.0, 149.9, 0.1], 
+			[93.0, 146.6, 0.1], 
+			[93.0, 143.3, 0.1], 
+			[93.0, 139.9, 0.1], 
+			[93.0, 136.4, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[16.0, 0, 0],
+			[16.0, 0, 0],
+			[16.0, 0, 0],
+			[16.0, 0, 0],
+			[16.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"ucv_target_velocity": 11.0,
+		"allow_switch": false
+	},
+	"Highway-0909": {
+		"CAV_Base_loc":[
+			[65, 146.6, 0.1], 
+			[65, 143.3, 0.1], 
+			[65, 139.9, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0]
+		],
+		"CAV_Destination":[
+            120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[85.0, 146.6, 0.1], 
+			[85.0, 143.3, 0.1], 
+			[85.0, 139.9, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[4.0, 0, 0],
+			[4.0, 0, 0],
+			[4.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[143.0, 146.6, 0.1], 
+			[143.0, 143.3, 0.1], 
+			[143.0, 139.9, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[6.0, 0, 0],
+			[6.0, 0, 0],
+			[6.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"ucv_target_velocity": 7.5,
+		"allow_switch": false
+	},
+	"Highway-0909-Test": {
+		"CAV_Base_loc":[
+			[65, 146.6, 0.1], 
+			[65, 143.3, 0.1], 
+			[65, 139.9, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[10.0, 0, 0],
+			[10.0, 0, 0],
+			[10.0, 0, 0]
+		],
+		"CAV_Destination":[
+            120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[85.0, 146.6, 0.1], 
+			[85.0, 143.3, 0.1], 
+			[85.0, 139.9, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[8.0, 0, 0],
+			[8.0, 0, 0],
+			[8.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[143.0, 146.6, 0.1], 
+			[143.0, 143.3, 0.1], 
+			[143.0, 139.9, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[8.0, 0, 0],
+			[8.0, 0, 0],
+			[8.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"ucv_target_velocity": 7.5,
+		"allow_switch": false
+	},
+	"Highway-Test": {
+		"CAV_Base_loc":[
+			[85.0, 146.6, 0.1], 
+			[70.0, 143.3, 0.1], 
+			[80, 139.8, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20.0, 0, 0],
+			[20.0, 0, 0],
+			[20.0, 0, 0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[105, 146.6, 0.1], 
+			[105, 139.8, 0.1], 
+			[109, 143.3, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[8.0, 0, 0],
+			[8.0, 0, 0],
+			[8.0, 0, 0]
+		],
+		"UCV_2nd_Base_loc":[
+			[132, 150.4, 0.1], 
+			[132, 136.4, 0.1], 
+			[132, 143.3, 0.1]
+		],
+		"UCV_2nd_Rand_loc":[
+			[12.0, 0, 0],
+			[12.0, 0, 0],
+			[12.0, 0, 0]
+		],
+		"NUM_HAZ": 1,
+		"NCAV_base_throttle": 0.6,
+		"HAZV_base_throttle": 0.85,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"allow_switch": false
+	},
+	"Crossing": {
+		"CAV_Base_loc":[
+			[-60.0, 48.9, 0.1],
+			[-45.0, 45.7, 0.1], 
+			[-75.0, 45.7, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20,0,0],
+			[10,0,0],
+			[10,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[6.1, 120.0, 0.1], 
+			[-5.5, -10.0, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 8, 0],
+			[0, 8, 0]
+		],
+		"NUM_HAZ": 0,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"CAV_inital_vel": 0,
+		"allow_switch": false
+	},
+	"Crossing-3": {
+		"CAV_Base_loc":[
+			[-60.0, 48.9, 0.1],
+			[-45.0, 45.7, 0.1], 
+			[-75.0, 45.7, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20,0,0],
+			[20,0,0],
+			[10,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[6.1, 120.0, 0.1], 
+			[-5.5, -10.0, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 8, 0],
+			[0, 4, 0]
+		],
+		"NUM_HAZ": 0,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"CAV_inital_vel": 3,
+		"allow_switch": false
+	},
+	"Crossing-3-Test": {
+		"CAV_Base_loc":[
+			[-60.0, 48.9, 0.1],
+			[-45.0, 45.7, 0.1], 
+			[-75.0, 45.7, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20,0,0],
+			[20,0,0],
+			[10,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[6.1, 120.0, 0.1], 
+			[-5.5, -10.0, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 12, 0],
+			[0, 6, 0]
+		],
+		"NUM_HAZ": 0,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"CAV_inital_vel": 3,
+		"allow_switch": false
+	},
+	"Crossing-1": {
+		"CAV_Base_loc":[
+			[-70.0, 48.9, 0.1],
+			[-40.0, 48.9, 0.1],
+			[-55.0, 45.7, 0.1], 
+			[-85.0, 45.7, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[10,0,0],
+			[10,0,0],
+			[10,0,0],
+			[10,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[6.1, 120.0, 0.1], 
+			[-5.5, -10.0, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 8, 0],
+			[0, 8, 0]
+		],
+		"NUM_HAZ": 0,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"CAV_inital_vel": 7.5,
+		"allow_switch": false
+	},
+	"Crossing-2": {
+		"CAV_Base_loc":[
+			[-60.0, 48.9, 0.1],
+			[-45.0, 45.7, 0.1], 
+			[-75.0, 45.7, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20,0,0],
+			[10,0,0],
+			[10,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[6.1, 120.0, 0.1], 
+			[-5.5, -10.0, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 8, 0],
+			[0, 8, 0]
+		],
+		"NUM_HAZ": 0,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"CAV_inital_vel": 3,
+		"allow_switch": false
+	},
+	"Crossing-baseline-1": {
+		"CAV_Base_loc":[
+			[-60.0, 45.43, 0.1],
+			[-45.0, 45.7, 0.1], 
+			[-75.0, 45.7, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[20,0,0],
+			[10,0,0],
+			[10,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[6.1, 120.0, 0.1], 
+			[-5.3, -10.0, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 0, 0],
+			[0, 0, 0]
+		],
+		"NUM_HAZ": 0,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"allow_switch": false
+	},
+	"Crossing-example-1": {
+		"CAV_Base_loc":[
+			[-76.36, 48.9, 0.1],
+			[-42.85, 45.42, 0.1], 
+			[-55.91, 48.92, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[0,0,0],
+			[0,0,0],
+			[0,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[-8.97, -10.13, 0.1], 
+			[6.19, 121.16, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 0, 0],
+			[0, 0, 0]
+		],
+		"NUM_HAZ": 0,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"CAV_inital_vel": 10.86,
+		"allow_switch": false
+	},
+	"Crossing-Test": {
+		"CAV_Base_loc":[
+			[-55.0, 48.9, 0.1],
+			[-40.0, 45.7, 0.1], 
+			[-70.0, 45.7, 0.1]
+		],
+		"CAV_Rand_loc":[
+			[30,0,0],
+			[20,0,0],
+			[20,0,0]
+		],
+		"CAV_Destination":[
+			120,
+            120,
+            120
+		],
+		"UCV_Base_loc":[
+			[6.1, 120.0, 0.1], 
+			[-5.3, -10.0, 0.1]
+		],
+		"UCV_Rand_loc":[
+			[0, 8, 0],
+			[0, 8, 0]
+		],
+		"NUM_HAZ": 2,
+		"NCAV_base_throttle": 0.5,
+		"HAZV_base_throttle": 0.80,
+		"Default_Steps": 240,
+		"Target_speed": 50,
+		"allow_switch": false
+	}
+}
+

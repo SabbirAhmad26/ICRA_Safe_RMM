@@ -1,0 +1,53 @@
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 633 -c 5 --num_agents 3 --discretize 5 --lr 1e-4 --critic_lr 2e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_centralized_V --use_transformer --use_recurrent_policy --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 633 -c 5 --num_agents 3 --discretize 5 --lr 1e-4 --critic_lr 2e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_centralized_V --use_transformer --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 633 -c 5 --num_agents 3 --discretize 5 --lr 1e-4 --critic_lr 2e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_centralized_V --episodes 200
+
+# server
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1122 -c 6 --num_agents 3 --discretize 5 --lr 5e-5 --critic_lr 1e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_centralized_V --use_gnn --gnn gat --gnn_pooling att --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1122 -c 6 --num_agents 3 --discretize 5 --lr 5e-5 --critic_lr 1e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn gcn --gnn_pooling max --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1122 -c 6 --num_agents 3 --discretize 5 --lr 5e-5 --critic_lr 1e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn gcn --gnn_pooling att --episodes 200
+
+# desktop
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1122 -c 6 --num_agents 3 --discretize 5 --lr 5e-5 --critic_lr 1e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn gcn --gnn_pooling mean --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1122 -c 6 --num_agents 3 --discretize 5 --lr 5e-5 --critic_lr 1e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn gat --gnn_pooling att --episodes 200
+
+
+# GAT + attention_pooling
+# GCN + max_pooling/mean_pooling/attention_pooling
+
+n2v+transformer + pooling
+
+# server
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 256 -c 6 --num_agents 3 --discretize 5 --lr 5e-4 --critic_lr 5e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn n2v --gnn_pooling none --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 256 -c 6 --num_agents 3 --discretize 5 --lr 5e-4 --critic_lr 5e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn n2v --gnn_pooling att --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 256 -c 6 --num_agents 3 --discretize 5 --lr 5e-4 --critic_lr 5e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn n2v --gnn_pooling max --episodes 200
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 256 -c 6 --num_agents 3 --discretize 5 --lr 5e-4 --critic_lr 5e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 2.0 --share_policy --use_gnn --gnn n2v --gnn_pooling mean --episodes 200
+
+
+
+# 12.1
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1118 -c 6 --num_agents 3 --discretize 5 --lr 7e-4 --critic_lr 7e-4 --layer_N 1 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_transformer --temporal_length 10 --episodes 3
+
+
+
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "rmappo" --experiment_name "CAV_train" --seed 1202 -c 6 --num_agents 3 --discretize 5 --lr 4e-4 --critic_lr 4e-4 --layer_N 1 --hidden_size 32 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_recurrent_policy --recurrent_N 1 --data_chunk_length 20 --episodes 3 
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "rmappo" --experiment_name "CAV_train" --seed 1202 -c 6 --num_agents 3 --discretize 5 --lr 4e-4 --critic_lr 4e-4 --layer_N 1 --hidden_size 64 --episode_length 300 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_recurrent_policy --recurrent_N 2 --data_chunk_length 30 --episodes 3 
+
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1216 -c 6 --num_agents 3 --discretize 5 --lr 7e-4 --critic_lr 7e-4 --layer_N 1 --episode_length 50 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_transformer --temporal_length 10 --episodes 1
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1216 -c 6 --num_agents 3 --discretize 5 --lr 7e-4 --critic_lr 7e-4 --layer_N 1 --episode_length 50 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_transformer --temporal_length 10 --episodes 5
+
+python -u run_ppo_carla.py --env_name "CARLA" --scenario_name highway --scene_n 0 --algorithm_name "mappo" --experiment_name "CAV_train" --seed 1015 -c 6 --num_agents 3 --discretize 5 --lr 7e-4 --critic_lr 7e-4 --layer_N 1 --episode_length 100 --apply_safe_reward --rule_based_r --avg_coef 0.2 --flow_reward_coef 3.0 --share_policy --use_transformer --temporal_length 10 --threshold 0.12 --episodes 2
