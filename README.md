@@ -1,3 +1,10 @@
+## Safety Guaranteed Robust Multi-Agent Reinforcement Learning with Hierarchical Control for Connected and Automated Vehicles
+
+#### Presented in ICRA 2025
+
+- Paper: \[[arxiv](https://arxiv.org/abs/2309.11057)\]
+- Project Website: \[[link](https://zhili-zh.github.io/projects/project_safe_robust.html)\]
+
 ### Carla 0.9.15 Installation
 
 Please check the following link for instruction on Carla Installations.
