@@ -1,7 +1,6 @@
 ## Safety Guaranteed Robust Multi-Agent Reinforcement Learning with Hierarchical Control for Connected and Automated Vehicles
 
 #### Presented in ICRA 2025
-- Results Video:
 
  ![MARL_CBF Demo](MARL_CBF.gif)
 
