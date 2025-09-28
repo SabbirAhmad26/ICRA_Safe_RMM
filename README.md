@@ -2,7 +2,9 @@
 
 #### Presented in ICRA 2025
 - Results Video:
-- ![MARL_CBF Demo](MARL_CBF.gif)
+
+ ![MARL_CBF Demo](MARL_CBF.gif)
+
 - Paper: \[[arxiv](https://arxiv.org/abs/2309.11057)\]
 - Project Website: \[[link](https://zhili-zh.github.io/projects/project_safe_robust.html)\]
 
